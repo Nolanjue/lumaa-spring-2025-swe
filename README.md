@@ -22,14 +22,14 @@ Ensure you have installed(you need this in my experience):
 ## Environment Setup
 
 1. Backend (.env setup): You must fill in all 3, they are used for setting up our backend features for it to work!
-   Create a `.env` file in the `backend` directory:
+  You must fill this in the .env file
    ```
    DATABASE_URL="postgresql://postgres:your_password@localhost:5432/task_management"
    JWT_SECRET="your-secret-key"
    PORT=3000
    ```
 
-2. Frontend (.env setup):
+2. Frontend (.env setup for frontend):
    Create a `.env` file in the `frontend` directory:
    ```
    FRONTENDURL=http://localhost:3000
