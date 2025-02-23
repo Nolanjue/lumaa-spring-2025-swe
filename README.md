@@ -1,6 +1,6 @@
 # Task Management Application
 
-A full-stack task management application built with React (Frontend) and NestJS (Backend).
+A full-stack task management application built with React/Vite (Frontend) and NestJS (Backend).
 
 ## Prerequisites
 
@@ -21,7 +21,7 @@ Ensure you have installed(you need this in my experience):
 
 ## Environment Setup
 
-1. Backend (.env setup): You must fill in all 3, they are used for setting up our backend features
+1. Backend (.env setup): You must fill in all 3, they are used for setting up our backend features for it to work!
    Create a `.env` file in the `backend` directory:
    ```
    DATABASE_URL="postgresql://postgres:your_password@localhost:5432/task_management"
